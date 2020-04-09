@@ -3,4 +3,6 @@ from . import views
 
 urlpatterns = [
     path('', views.posts),
+    path('findByID', views.post),
+    path('update', views.update_post),
 ]
